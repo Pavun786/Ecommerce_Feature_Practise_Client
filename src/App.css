@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+.movie-container{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table,thead,tbody,tr,th,td {
+   border: 1px solid black;
+   padding: 7px;
+   border-collapse: collapse;
+   margin: 40px;
+   background-color:antiquewhite;
+   
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.open{
+   display: block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.close{
+   display: none;
 }
 
-.App-link {
-  color: #61dafb;
+.sub-child1 {
+   width: 400px;
+   /* background-color: aqua; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#sub-child2{
+   width: 400px;
+   /* background-color: blue; */
+   margin-top:200px;
+   
+   
+}
+
+#model-container{
+   background-color:rgb(194, 221, 245);
+   padding: 20px;
+}
+
+button{
+   padding: 5px;
+   margin: 5px;
+   background-color:white;
+}
+
+input{
+   padding: 5px;
+  
+}
+
+.search{
+   margin: 30px;
+}
+
+
+
+
+
+.products-container{
+   height: 100vh;
+   
+   display: flex;
+   gap: 50px;
+   align-items: center;
+   justify-content: center;
+}
+
+.items{
+   border: 1px solid black;
+   padding: 50px;
+   font-size: 20px;
+   background-color: aliceblue;
+}
+
+.nav-container{
+   display: flex;
+   justify-content: space-around;
+   padding: 20px;
+   background-color: cadetblue;
+   color: whitesmoke;
+   font-size: larger;
+   font-weight: 600;
+}
+
+.cart-items{
+   display: flex;
+   background-color:azure;
+   width: 50%;
+   justify-content: space-between;
+   margin: 20px;
+   font-size: 20px;
+   padding: 20px;
+}
+
+form{
+
+   display: flex;
+   flex-direction: column;
+  
+    align-items: center;
+    justify-content: center;
+   
+    padding: 60px;
+    gap: 10px;
+}
+
+.alert{
+   color: red;
+}
+
+.alert2{
+   color: green;
 }
